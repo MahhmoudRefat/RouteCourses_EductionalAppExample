@@ -39,7 +39,7 @@ public class CoursesContent implements Parcelable {
 
     @Override
     public void writeToParcel(@NonNull Parcel parcel, int i) {
-        parcel.writeInt(img_id);
-        parcel.writeString(content);
+        parcel.writeInt(this.img_id);
+        parcel.writeString(this.content);
     }
 }
